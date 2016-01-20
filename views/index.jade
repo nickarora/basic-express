@@ -1,5 +1,26 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .jumbotron
+    .container
+      h1 Welcome
+      p This is some sample text!
+      a.btn.btn-primary.btn-lg(href="#") Learn more &raquo;
+
+  .container
+     .row
+       .col-md-4
+         h2 About Us
+         p Lorem ipsum dolres sitem ok whatever yes no maybe so. taco hot dog chicken meat steak.
+         a.btn.btn-default(href="#") View Details
+       .col-md-4
+         h2 Services
+         p Lorem ipsum dolres sitem ok whatever yes no maybe so. taco hot dog chicken meat steak.
+         a.btn.btn-default(href="#") View Details
+       .col-md-4
+         h2 Get In Touch
+         p Lorem ipsum dolres sitem ok whatever yes no maybe so. taco hot dog chicken meat steak.
+         a.btn.btn-default(href="#") View Details
+
+
+
